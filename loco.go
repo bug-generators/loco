@@ -1,9 +1,20 @@
 package main
 
-import "fmt"
-import "time"
+import (
+	"log"
+)
 
-func main(){
-	fmt.Printf("Hello")
-	time.Sleep(2000 * time.Millisecond)
+func main() {
+
+	// initialize the workflow engine
+	log.Println("Starting workflow engine")
+
+	// read in the worklows
+	log.Println("Finding workflows")
+
+	// validate each workflow is composed correctly
+
+	// start the poller for messages for each workflow step
+
 }
+
